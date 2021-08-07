@@ -7,11 +7,11 @@ import (
 )
 
 type User struct {
-	name       string
-	age        uint16
-	money      int16
-	avg_grades float64
-	happiness  float64
+	Name       string
+	Age        uint16
+	Money      int16
+	Avg_grades float64
+	Happiness  float64
 }
 
 // func (u *User) getAllInfo() string {
